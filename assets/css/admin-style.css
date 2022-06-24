@@ -1,0 +1,230 @@
+.mcfw-general-setting .select2.select2-container {
+    width: 20% !important;
+}
+
+.mcfw-tabbing-box,
+.mcfw-tab-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.mcfw-tab-list li .nav-tab,
+.mcfw-tabing-option .submit input,
+.mcfw-tabing-option .submit input:active,
+.mcfw-tabing-option .submit input:focus {
+    border: 0;
+    background: #1d3557;
+    color: #fff;
+    margin: 0;
+    padding: 10px 18px;
+    font-size: 16px;
+    transition: 0.4s;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+.mcfw-tabing-option .submit input {
+    padding: 10px 46px !important;
+    pointer-events: auto;
+}
+
+.mcfw-tabing-option .submit input:hover {
+    background: #1d3557;
+}
+
+.mcfw-tabing-option .submit {
+    position: sticky;
+    bottom: 0;
+    text-align: right;
+    padding: 0 20px;
+    margin: 0;
+    pointer-events: none;
+}
+
+.mcfw-tab-list li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.mcfw-tab-list li .nav-tab.nav-tab-active,
+.mcfw-tab-list li .nav-tab:hover {
+    background-color: #2a9d8f;
+}
+
+.mcfw-tabing-option {
+    background-color: #fff;
+    position: relative;
+}
+
+.mcfw_price_main {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.mcfw_price_main span {
+    display: block;
+}
+
+.mcfw_price_main {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.mcfw_price_main span {
+    display: block;
+}
+
+.mcfw-cart-options,
+.mcfw-cart-btn-img {
+    display: inline-flex;
+    margin: 0 40px 0 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mcfw-cart-options.mcfw-current-cart-options img,
+.mcfw-cart-btn-img.mcfw-current-cart-options img {
+    opacity: 1;
+}
+
+.mcfw-cart-options img,
+.mcfw-cart-btn-img img {
+    opacity: 0.5;
+    order: -1;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.mcfw-cart-btn-img {
+    margin: 0 40px 30px 0;
+}
+
+/* Checkbox */
+
+label.mcfw-switch {
+    cursor: pointer;
+}
+
+label.mcfw-switch {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 22px;
+}
+
+label.mcfw-switch input[type="checkbox"] {
+    display: none;
+}
+
+label.mcfw-switch input:checked + .mcfw-slider {
+    background-color: #2196f3;
+}
+
+input.mcfw-checkbox:checked + .mcfw-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(36px);
+}
+
+label.cf7p-switch input:checked + .mcfw-slider {
+    background-color: #2196f3;
+}
+
+input.cf7p-checkbox:checked + .mcfw-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(36px);
+}
+
+.mcfw-slider {
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgb(0 0 0 / 20%);
+}
+
+.mcfw-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.mcfw-slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 0;
+    bottom: 0px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.mcfw-page-redirect-class {
+    display: none;
+}
+
+.mcfw-section h2 {
+    background-color: #2a9d8f;
+    color: #fff;
+    margin: 0;
+    padding: 14px 28px;
+}
+
+.mcfw-tabing-option .mcfw-section .form-table {
+    padding: 20px 40px;
+    display: block;
+    margin: 0;
+}
+
+.mcfw-tabing-option .mcfw-general-setting {
+    padding: 30px 0 20px;
+}
+
+.mcfw-main-box {
+    max-width: 1400px;
+}
+
+.mcfw-input-note {
+    font-style: italic;
+    color: #808080;
+}
+
+.mcfw-section .mcfw-border-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.mcfw-section .mcfw-border-options input,
+.mcfw-border-options select {
+    min-width: 103px;
+    width: 103px;
+}
+
+.mcfw-border-options .mcfw-input-note {
+    margin: 5px 0 20px 0;
+}
+
+.mcfw-border-options .wp-picker-container button {
+    margin: 0 !important;
+}
+
+.mcfw-cart-options input[type="radio"]:after,
+.mcfw-cart-btn-img input[type="radio"]:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
